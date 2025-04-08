@@ -12,7 +12,7 @@ const Header = () => {
 
       {/* Navigation Links */}
       <div className="space-x-6 text-sm font-medium hidden md:flex">
-        {["Home", "Predict", "Contact Us", "About"].map((item, idx) => (
+        {["Home", "Predict", "Contact Us", "Realtime Simulation"].map((item, idx) => (
           <Link
             key={idx}
             to={item === "Home" ? "/" : `/${item.toLowerCase().replace(" ", "")}`}
