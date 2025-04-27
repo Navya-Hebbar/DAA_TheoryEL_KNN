@@ -1,9 +1,17 @@
+// tailwind.config.js
+
 module.exports = {
-  content: [
-    "./src/**/*.{js,jsx,ts,tsx}", // for CRA
-  ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'custom-blue': '#1E40AF',
+        'custom-purple': '#6B21A8',
+        'custom-pink': '#D946EF',
+      },
+      fontFamily: {
+        sans: ['Inter', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
-}
+};

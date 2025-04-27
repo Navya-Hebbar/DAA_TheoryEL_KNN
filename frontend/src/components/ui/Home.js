@@ -3,7 +3,7 @@ import Header from "./Header";
 
 
 export default function Home() {
-  const features = ["Fast Detection", "Low False Positives", "Real-time Monitoring", "Fast Detection", "Low False Positives", "Real-time Monitoring"];
+  const features = ["Fast Detection", "Low False Positives", "Real-time Monitoring", "Live WiFi Packet Analysis", "CSV-Based Batch Detection", "Detailed Anomaly Reports"];
 
   return (
     <div className="min-h-screen bg-black text-white">

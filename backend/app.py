@@ -44,6 +44,8 @@ def realtime_detect():
     results = []
 
     def capture_packets():
+
+
         asyncio.set_event_loop(asyncio.new_event_loop())  # ✅ Fix event loop issue
         try:
             capture = pyshark.LiveCapture(interface='Wi-Fi', bpf_filter='ip')  # 🔁 Change interface if needed
